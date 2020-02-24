@@ -6,6 +6,13 @@ with open("/Users/User/Desktop/python_lessons/mission8.csv"
     dict =  csv.DictReader(f)
     students_scores = [row for row in dict]
 
+"""
+[OrderedDict([('生徒名', '秋原'), ('点数', '90')]),
+ OrderedDict([('生徒名', '今井'), ('点数', '60')]),
+ OrderedDict([('生徒名', '上田'), ('点数', '50')]),
+（以下略）
+"""
+
 # 必要な変数を定義
 king = ""
 best_score = 0
