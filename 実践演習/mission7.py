@@ -22,6 +22,7 @@ while True:
         print("出す手を選んでください")
         player_hand_str = input("0.グー　1.チョキ　2.パー") # プレイヤーが手を入力
         if player_hand_str not in ["0","1","2"]: # プレイヤーの手が0でも1でも2でもない場合
+            print("")
             print("0か1か2を入力して手を選択してください")
             print("")
             continue # ループを継続
