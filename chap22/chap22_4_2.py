@@ -4,13 +4,13 @@ import tkinter as tk
 
 root = tk.Tk()
 
-# buttonをクリックした時の処理
-def button_clicked():
-    button["text"] = "びろ～～～ん" # buttonインスタンスのtextを書き換え
-
 # ウィンドウの設定
 root.title("ウィンドウのタイトル")
 root.geometry("600x300")
+
+# buttonをクリックした時の処理
+def button_clicked():
+    button["text"] = "びろ～～～ん" # buttonインスタンスのtextを書き換え
 
 # labelウィジェットを生成・配置
 label = tk.Label(root,text="「スイッチ」を押させるなーーーーッ", font=("游ゴシック体", "20", "bold"))
