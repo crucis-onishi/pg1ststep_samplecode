@@ -17,12 +17,10 @@ label = tk.Label(root,text="あなたが押したボタンは　ほにゃらら"
 label.place(x=50, y=30)
 
 # ボタン
-buttons = []
 items = ["あいうえお","かきくけこ","さしすせそ"]
 
 for i,item in enumerate(items):
     button = tk.Button(root, width=28, text=item, font=("游ゴシック体", "20", "bold"), bg="white", command=button_clicked(item))
     button.place(x=50, y=100 + (i * 60))
-    buttons.append(button)
 
 root.mainloop()
